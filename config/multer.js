@@ -5,7 +5,7 @@ const cloudinary = require("./cloudinary");
 const storage = new CloudinaryStorage({
   cloudinary: cloudinary,
   params: {
-    folder: "fullstack-blog-project",
+    folder: "inkflow",
     allowed_formats: ["jpg", "jpeg", "png"],
   },
 });
